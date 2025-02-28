@@ -11,22 +11,73 @@
             text-align: left;
             font-family: Arial, Helvetica, sans-serif;
         }
+        table, th, td {
+            border: 1px solid black;
+        }
+        .TopNav {
+            text-align: right;
+            margin-left: 20px;
+            padding: 20px;
+            gap: 20px
+        }
+        .TopNav a {
+            gap: 0px 10px;
+        }
     </style>
-    <h1>Your Name </h1>
-    <h2> Here is your description! You do cool things, go you! </h2>
+
+    <div class="TopNav">
+        <a class="Active" href="#home">Home</a>
+        <a href="#mission">Mission</a>
+        <a href="#account">Account</a>
+    </div>
+
+    <h1>Umair Mohammed</h1>
+    <h2> Hello! This is my description stuff.</h2>
     </head>
     <body>
     <img src="https://s24193.pcdn.co/wp-content/uploads/2016/07/entity-women-that-did-ada-lovelace-1320x720.jpg" width="400" height="400" alt="Computer Hope">
     <p>
-        Where did you go to schooL?
+        Where did you go to school?
+        <li>I got to school at Macalester College</li>
     </p>
     <p>
         Where do you work?
+        <li>I work a security job</li>
     </p>
     <p>
         What are your accomplishments?
+        <li>
+            I am a accomplished human being
+        </li>
     </p>
     <a href="url"> your favorite cat video </a>
+    <table style= "width: 100%;">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Major</th>
+        </tr>
+        <tr>
+            <td>Umair</td>
+            <td>umohamme@macalester.edu</td>
+            <td>Computer Science</td>
+        </tr>
+    </table>
+    <br>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" maxlength="50"><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" maxlength="50"><br><br>
+        <button for="submit" name="submit">Submit</button>
+    </form>
+    <p>
+        Martin Luther King once said:
+    </p>
+    <blockquote cite="alhgowjkbowbowbwbwibowonbrowborwbor">
+        "Intelligence plus character—that is the goal of true education."
+    </blockquote>
+    
 </body>
 </html>
 
